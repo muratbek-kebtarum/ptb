@@ -3,7 +3,7 @@ from psycopg2.extras import RealDictCursor
 from contextlib import closing
 
 # Настройки подключения к базе данных
-DATABASE_URL = "postgresql://muratbek:tarum2000@localhost:5432/telegram_bot_db"
+DATABASE_URL = "postgresql://databasename:password@localhost:5432/telegram_bot_db"
 
 
 # Функция для создания таблицы

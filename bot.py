@@ -160,7 +160,7 @@ async def handle_input(update: Update, context: CallbackContext):
 
 # Основная функция
 def main():
-    TOKEN = "7607676692:AAH8oOq5i-bvHjREL6m_uIM95Ed9uUh-t5c"
+    TOKEN = "TOKEN"
 
 
     application = Application.builder().token(TOKEN).build()
